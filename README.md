@@ -27,7 +27,7 @@ git clone https://github.com/ibrahimaykutbas/WhatsAppClone.git
 
 ### Hazırlık
 
-Projeyi klonladıktan sonra kullanmak için:
+Projeyi klonladıktan sonra ilgili dizine gidin.
 
 ```
 cd patika-react-native/WhatsAppClone
