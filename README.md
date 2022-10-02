@@ -4,7 +4,7 @@
 
 [Projenin diğer fotoğraflarını görmek için buraya tıklayın..](https://github.com/ibrahimaykutbas/WhatsAppClone/tree/main/images)
 
-## Kurulum
+## Teknoloji
 
 React Native
 
@@ -17,7 +17,7 @@ React Native
 
 - Whatsapp UI Clone
 
-## Başlangıç
+## Kurulum
 
 Bu depoyu yerel makinenizde klonlayın.
 
@@ -25,31 +25,38 @@ Bu depoyu yerel makinenizde klonlayın.
 git clone https://github.com/ibrahimaykutbas/WhatsAppClone.git
 ```
 
-### Kullanım
+### Hazırlık
 
 Projeyi klonladıktan sonra kullanmak için:
 
 ```
 cd patika-react-native/WhatsAppClone
-cd .
+code .
 ```
-
-Proje bağımlılıklarını yüklemek için proje klasörüne aşağıdaki komutları çalıştırın.
+Proje bağımlılıklarını yüklemek için proje dizininde aşağıdaki komutları çalıştırın.
 
 ```
-npm init
 npm install
 ```
 
-Bu talimatlar, geliştirme ve test amacıyla yerel makinenizde projenin bir kopyasını hazır ve çalışır hale getirecektir.
+Eğer macOS kullanıyorsanız ve iOS işletim sistemine sahip bir cihazda projeyi başlatacaksanız pod'ları yükleyin.
 
-## Kullanılabilir Komut Dosyaları
+```
+cd ios
+pod install
+```
 
-Proje dizininde şunları çalıştırabilirsiniz:
+### Kullanım
+
+Projeyi başlatmak için aşağıdaki komutları kullanın.
 
 ```
 npx react-native run-android
+--or--
+npx react-native run-ios
 ```
+
+Bu talimatlar, geliştirme ve test amacıyla yerel makinenizde projenin bir kopyasını hazır ve çalışır hale getirecektir.
 
 ## Daha Fazla Bilgi İçin
 
