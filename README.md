@@ -30,7 +30,7 @@ git clone https://github.com/ibrahimaykutbas/WhatsAppClone.git
 Projeyi klonladıktan sonra ilgili dizine gidin.
 
 ```
-cd patika-react-native/WhatsAppClone
+cd WhatsAppClone
 code .
 ```
 
